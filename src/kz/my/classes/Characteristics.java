@@ -9,6 +9,7 @@ public class Characteristics implements ICharacteristics {
     private int persistence;
     private int fortitude;
     private int agility;
+    private int totalScore=1500;
 
     @Override
     public int calculate() {
@@ -16,6 +17,12 @@ public class Characteristics implements ICharacteristics {
     }
 
     public int calculatePower(int power){
+        int temp = totalScore;
+        int counter = 1;
+        while (temp != 0){
+
+            counter++;
+        }
 
 
 
